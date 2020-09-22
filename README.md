@@ -4,7 +4,7 @@ Make RMSD, xPRD and 'Linking number' comparisons between all CIF files in a fold
 Relies on CCDC package and must therefore be run from within the CSD Python API.
 Requires installation of sympy and gemmi
 
-Runs with two arguments - an input directory and the output directory
+Runs with two arguments giving an output and input directory (in that order!)
 
 Output directory must contain one or more CIF files
 
