@@ -6,9 +6,9 @@ Requires installation of sympy and gemmi
 
 Runs with two arguments giving an output and input directory (in that order!)
 
-Output directory must contain one or more CIF files
+Input directory must contain one or more CIF files
 
-Input directory will contain the following files:
+Output directory will contain the following files:
 
 lkno.csv gives a table of all CIF filenames in the output folder along with, currently, a vector giving the linking number between a line       joining the first two centroids in a crystal packing and a line between centroids 2&3, 3&4 etc. If there are only three centroids in the crystal it outputs 'not enough points!
 
