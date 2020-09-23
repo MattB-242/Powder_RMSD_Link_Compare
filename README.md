@@ -17,6 +17,6 @@ In both cases there are 'zero' entries for symmetrical comparisons.
 The current versions of the csv files give comparisons between the first 100 crystals of the T2 dataset.
 
 ***HEADER NAMES FOR THE CSV FILES ARE HARDCODED TO WORK WITH T2 DATASET FILENAMES. 
-   TO STRIP OUT ONLY THE FILE EXTENSION  LINE xxx SHOULD READ
+   TO STRIP OUT ONLY THE FILE EXTENSION  LINE 207 SHOULD READ
    
    filename_list = [str(i[len(i)-1][:-4]) for i in filename_split]
