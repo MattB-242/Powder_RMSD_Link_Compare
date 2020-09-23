@@ -6,15 +6,17 @@ Current default setting produces only RMSD and xPRD comparison tables
 Relies on CCDC package and must therefore be run from within the CSD Python API.
 Requires installation of pandas,sympy and gemmi
 
-Runs with FOUR arguments giving an input and output directory (in that order!) plus a start and end index for the files in the input directory
+Runs with FOUR arguments:
+
+linkcomp.py <input directory> <output directory> <start file index> <end file index>
 
 Input directory must contain one or more CIF files
 
-Output directory will contain comparison files rmsd_compare.csv and powder_compare.csv
+Output directory will contain comparison files rmsd_compare.csv and powder_compare.csv after run
 
 In both cases there are 'zero' entries for symmetrical comparisons. 
 
-The current versions of the csv files give comparisons between the first 100 crystals of the T2 dataset.
+The current versions of the csv files give comparisons between the first 20 crystals of the T2 dataset.
 
 ***HEADER NAMES FOR THE CSV FILES ARE HARDCODED TO WORK WITH T2 DATASET FILENAMES. 
    TO STRIP OUT ONLY THE FILE EXTENSION  LINE 207 SHOULD READ
